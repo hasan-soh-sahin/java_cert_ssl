@@ -1,0 +1,9 @@
+keytool -import -alias example -keystore  \Java\jre1.8.0_231\jre\lib\security\cacerts" -file somedir\mvn_cer.cer
+keytool -import -alias example -keystore /usr/java/jdk1.8.0_201-amd64/jre/lib/security/cacerts  -file ../certs/mvn2_cer.cer
+
+apache-maven-3.6.3\bin\mvn package  -X -DproxySet=true -DproxyHost=prx_host -DproxyPort=prx_port -Dhttp.proxyUser=prx_usr -Dhttp.proxyPassword=prx_p. 
+-Djavax.net.ssl.trustStore=\jdk1.8.0_191\jre\lib\security\cacerts
+
+---
+ 
+ declare -r default_java_opts="-Dfile.encoding=UTF-8 -Dhttp.proxyHost=istvekil.fintek.local -Dhttp.proxyPort=8080 -Dhttp.proxyUser=varproxyuser -Dhttp.proxyPassword=Zt1863*VaR! -Djavax.net.ssl.trustStore=/usr/java/jdk1.8.0_201-amd64/jre/lib/security/cacerts"
